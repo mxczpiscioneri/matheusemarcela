@@ -13,476 +13,591 @@
   <meta property="og:url" content="http://matheusemarcela.com">
   <meta name="fb:admins" content="100002445240415">
   <meta name="twitter:card" content="http://matheusemarcela.com/public/img/capa.jpg">
-  <meta name="theme-color" content="#c2185b">
-  <meta name="msapplication-navbutton-color" content="#c2185b">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#c2185b">
+  <meta name="theme-color" content="#ff7070">
+  <meta name="msapplication-navbutton-color" content="#ff7070">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ff7070">
   <link rel="icon" href="public/img/favicon.png">
   <link rel="stylesheet" type="text/css" href="public/css/style.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Parisienne">
   <script type="text/javascript" src="public/js/script.min.js"></script>
 </head>
 
 <body class="clear-margin">
-  <header class="grid-container-fluid header bg-white align-center padding-top-lg padding-bottom-md absolute position-top position-left position-right">
-    <a href="/" class="text-primary clear-decoration title title-xl align-top">Matheus <i class="text-xxs hidden">&</i><img src="public/img/brasao.png" class="img" height="100" alt="Matheus e Marcela"> Marcela</a>
-  </header>
-  <div class="grid-container-fluid menu bg-white absolute position-left position-right">
-    <div class="grid-container">
-      <div class="grid-row">
-        <div class="grid-xs-12 align-center">
-          <ul id="menu" class="list inline-block">
-            <li class="list-item table-cell"><a class="text-lg text-secondary clear-decoration transition-fast align-center padding-x-lg padding-y-sm inline-block" href="#contador"><span class="inline-block transition-fast hidden-lg">♥</span> Data</a></li>
-            <li class="list-item table-cell"><a class="text-lg text-secondary clear-decoration transition-fast align-center padding-x-lg padding-y-sm inline-block" href="#casal"><span class="inline-block transition-fast hidden-lg">♥</span> Casal</a></li>
-            <li class="list-item table-cell"><a class="text-lg text-secondary clear-decoration transition-fast align-center padding-x-lg padding-y-sm inline-block" href="#historia"><span class="inline-block transition-fast hidden-lg">♥</span> História</a></li>
-            <li class="list-item table-cell"><a class="text-lg text-secondary clear-decoration transition-fast align-center padding-x-lg padding-y-sm inline-block" href="#galeria"><span class="inline-block transition-fast hidden-lg">♥</span> Fotos</a></li>
-            <li class="list-item table-cell"><a class="text-lg text-secondary clear-decoration transition-fast align-center padding-x-lg padding-y-sm inline-block" href="#eventos"><span class="inline-block transition-fast hidden-lg">♥</span> Eventos</a></li>
-            <li class="list-item table-cell"><a class="text-lg text-secondary clear-decoration transition-fast align-center padding-x-lg padding-y-sm inline-block" href="#pessoas"><span class="inline-block transition-fast hidden-lg">♥</span> Pessoas</a></li>
-            <li class="list-item table-cell"><a class="text-lg text-secondary clear-decoration transition-fast align-center padding-x-lg padding-y-sm inline-block" href="#presentes"><span class="inline-block transition-fast hidden-lg">♥</span> Presentes</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="grid-container-fluid capa">
-  </div>
-  <div id="contador" class="grid-container-fluid counter">
+  <nav id="menu" class="menu absolute position-top position-left position-right">
+    <ul class="list list-horizontal align-center">
+      <li class="list-item"><a class="anchor text-lg text-white clear-decoration transition-normal padding-x-xl padding-y-sm inline-block" href="#contador">Data</a></li>
+      <li class="list-item"><a class="anchor text-lg text-white clear-decoration transition-normal padding-x-xl padding-y-sm inline-block" href="#casal">Casal</a></li>
+      <li class="list-item"><a class="anchor text-lg text-white clear-decoration transition-normal padding-x-xl padding-y-sm inline-block" href="#historia">História</a></li>
+      <li class="list-item"><a class="anchor text-lg text-white clear-decoration transition-normal padding-x-xl padding-y-sm inline-block" href="#galeria">Fotos</a></li>
+      <li class="list-item"><a class="anchor text-lg text-white clear-decoration transition-normal padding-x-xl padding-y-sm inline-block" href="#eventos">Eventos</a></li>
+      <li class="list-item"><a class="anchor text-lg text-white clear-decoration transition-normal padding-x-xl padding-y-sm inline-block" href="#pessoas">Pessoas</a></li>
+      <li class="list-item"><a class="anchor text-lg text-white clear-decoration transition-normal padding-x-xl padding-y-sm inline-block" href="#presentes">Presentes</a></li>
+    </ul>
+  </nav>
+  <div class="grid-container-fluid cover bg-primary"></div>
+  <div id="contador" class="grid-container-fluid counter padding-bottom-xl bg-primary bd-bottom-xl bd-bottom-solid bd-light">
     <div class="grid-row">
-      <div class="grid-xs-12 clear-margin">
-        <h2 class="text-xl text-primary title title-xl love margin-top-xs margin-bottom-xs align-center">Está chegando<span class="hidden-xs hidden-sm"> nossa hora</span>!<i>♥</i></h2>
+      <div class="grid-xs-12">
+        <h1 class="name text-white align-center clear-margin">Matheus <span>&</span> Marcela</h1>
+        <h2 class="coming text-white weight-medium padding-top-xl margin-bottom-xs align-center">Está chegando nossa hora!</h2>
         <ul id="counter-box" class="list list-horizontal align-center">
-          <li class="list-item margin-x-sm margin-y-lg"><span class="bg-light text-primary bd-radius-circle inline-block days">00</span>
-            <p class="text-sm text-primary clear-margin days_text">Dias</p>
+          <li class="list-item margin-x-sm margin-y-lg">
+            <span class="text-white bd-bottom-xs bd-bottom-solid bd-white days">00</span>
+            <p class="text-lg text-white margin-top-sm days_text">dias</p>
           </li>
-          <li class="list-item margin-x-sm margin-y-lg"><span class="bg-light text-primary bd-radius-circle inline-block hours">00</span>
-            <p class="text-sm text-primary clear-margin hours_text">Horas</p>
+          <li class="list-item margin-x-sm margin-y-lg">
+            <span class="text-white bd-bottom-xs bd-bottom-solid bd-white hours">00</span>
+            <p class="text-lg text-white margin-top-sm hours_text">horas</p>
           </li>
-          <li class="list-item margin-x-sm margin-y-lg"><span class="bg-light text-primary bd-radius-circle inline-block minutes">00</span>
-            <p class="text-sm text-primary clear-margin minutes_text">Minutos</p>
+          <li class="list-item margin-x-sm margin-y-lg">
+            <span class="text-white bd-bottom-xs bd-bottom-solid bd-white minutes">00</span>
+            <p class="text-lg text-white margin-top-sm minutes_text">minutos</p>
           </li>
-          <li class="list-item margin-x-sm margin-y-lg"><span class="bg-light text-primary bd-radius-circle inline-block seconds">00</span>
-            <p class="text-sm text-primary clear-margin seconds_text">Segundos</p>
+          <li class="list-item margin-x-sm margin-y-lg">
+            <span class="text-white bd-bottom-xs bd-bottom-solid bd-white seconds">00</span>
+            <p class="text-lg text-white margin-top-sm seconds_text">segundos</p>
           </li>
         </ul>
       </div>
     </div>
   </div>
-  <div id="casal" class="grid-container-fluid couple">
-    <div class="grid-row">
+  <div id="casal" class="grid-container-fluid couple bd-bottom-xl bd-bottom-solid bd-default padding-bottom-xl">
+    <div class="grid-row align-center">
       <div class="grid-xs-12">
-        <h2 class="text-xl text-primary title title-xl love margin-bottom-xs align-center">Casal perfeito<i>♥</i></h2>
+        <h2 class="text-white title margin-top-xl margin-bottom-xl bd-bottom-sm bd-bottom-solid bd-primary inline-block">Casal Perfeito</h2>
       </div>
     </div>
     <div class="grid-row">
-      <div class="grid-lg-4 grid-lg-offset-1 grid-md-5 grid-sm-6 grid-xs-12 margin-top-xl matheus">
-        <h2 class="text-xl text-default align-center">Noivo</h2>
+      <div class="grid-xl-3 grid-xl-offset-2 grid-lg-4 grid-lg-offset-1 grid-md-5 grid-md-offset-0 grid-sm-10 grid-sm-offset-1 grid-xs-12 bg-white grooms">
         <div class="align-center">
           <img src="public/img/matheus.jpg" alt="Matheus Piscioneri" class="img bd-radius-circle">
         </div>
-        <h3 class="text-xl text-default title title-md align-center margin-y-xs">Matheus Piscioneri</h3>
-        <p class="text-sm text-default padding-x-lg">O Matheus é uma pessoa incrível, me fez crescer, ficar forte e aprender a entender o amor. Hoje quando olho pra ele, vejo tudo o que me encantou quando o conheci. As vezes fico vendo sua preocupação em querer me fazer feliz, sem saber que já o faz com o olhar. Sou apaixonada pelo seu sorriso, com a forma como me olha, com o carinho que sinto em cada abraço... Tudo isso apenas confirma que ele é o homem da minha vida.</p>
-        <p class="text-sm text-default padding-x-lg">Acredito muito em Deus e como tudo que ele faz em nossas vidas tem um propósito, sei que o Matheus vinha para mudar a minha vida e é um presente de Deus em resposta às minhas orações. Deus acertou em cheio quando preparou ele para mim.</p>
+        <h3 class="text-xl text-primary weight-regular align-center margin-top-sm margin-bottom-xs">Matheus Piscioneri</h3>
+        <h4 class="subtitle text-lg text-primary weight-light align-center clear-margin relative">Noivo</h4>
+        <p class="text text-sm text-default weight-light padding-x-lg margin-top-xl">O <span class="weight-medium">Matheus</span> é uma pessoa incrível, me fez crescer, ficar forte e aprender a entender o amor. Hoje quando olho pra ele, vejo tudo o que me encantou quando o conheci. As vezes fico vendo sua preocupação em querer me fazer feliz, sem saber que já o faz com o olhar. Sou apaixonada pelo seu sorriso, com a forma como me olha, com o carinho que sinto em cada abraço... Tudo isso apenas confirma que ele é o homem da minha vida.</p>
+        <p class="text text-sm text-default weight-light padding-x-lg">Acredito muito em Deus e como tudo que ele faz em nossas vidas tem um propósito, sei que o Matheus vinha para mudar a minha vida e é um presente de Deus em resposta às minhas orações. Deus acertou em cheio quando preparou ele para mim.</p>
       </div>
-      <div class="grid-lg-4 grid-lg-offset-2 grid-md-5 grid-md-offset-2 grid-sm-6 grid-xs-12 margin-top-xl marcela">
-        <h2 class="text-xl text-default align-center">Noiva</h2>
+      <div class="grid-xl-3 grid-xl-offset-2 grid-lg-4 grid-lg-offset-2 grid-md-5 grid-md-offset-2 grid-sm-10 grid-sm-offset-1 grid-xs-12 bg-white grooms">
         <div class="align-center">
           <img src="public/img/marcela.jpg" alt="Marcela Denipotte" class="img bd-radius-circle">
         </div>
-        <h3 class="text-xl text-default title title-md align-center margin-y-xs">Marcela Denipotte</h3>
-        <p class="text-sm text-default padding-x-lg">A Marcela foi a melhor coisa que me aconteceu, foi um presente de Deus e é tudo o que estava faltando na minha vida.</p>
-        <p class="text-sm text-default padding-x-lg">Ela é especial, tem um coração que não cabe no peito, uma pessoa que se entrega, pensa no próximo e é linda. Com ela aprendi muita coisa e me tornei uma pessoa melhor.</p>
-        <p class="text-sm text-default padding-x-lg">Me considero uma homem muito sortudo em poder tê-la ao meu lado para o resto da vida. Prometo cuidar dela da melhor forma possível e fazer de tudo para vê-la feliz. Não canso de me apaixonar por ela todos os dias, quero compartilhar meu futuro ao seu lado. É a mulher da minha vida!</p>
+        <h3 class="text-xl text-primary weight-regular align-center margin-top-sm margin-bottom-xs">Marcela Denipotte</h3>
+        <h4 class="subtitle text-lg text-primary weight-light align-center clear-margin relative">Noiva</h4>
+        <p class="text text-sm text-default weight-light padding-x-lg margin-top-xl">A <span class="weight-medium">Marcela</span> foi a melhor coisa que me aconteceu, foi um presente de Deus e é tudo o que estava faltando na minha vida.</p>
+        <p class="text text-sm text-default weight-light padding-x-lg">Ela é especial, tem um coração que não cabe no peito, uma pessoa que se entrega, pensa no próximo e é linda. Com ela aprendi muita coisa e me tornei uma pessoa melhor.</p>
+        <p class="text text-sm text-default weight-light padding-x-lg">Me considero uma homem muito sortudo em poder tê-la ao meu lado para o resto da vida. Prometo cuidar dela da melhor forma possível e fazer de tudo para vê-la feliz. Não canso de me apaixonar por ela todos os dias, quero compartilhar meu futuro ao seu lado. É a mulher da minha vida!</p>
       </div>
     </div>
   </div>
-  <div id="historia" class="grid-container history">
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <h2 class="text-xl text-primary title love title-xl margin-y-xs align-center">Nossa história de amor<i>♥</i></h2>
-      </div>
-    </div>
-    <div class="grid-row">
-      <div class="grid-md-9 grid-sm-12">
-        <div class="grid-row bd-sm bd-light bd-solid bg-white relative margin-bottom-xl">
-          <div class="grid-md-5 grid-xs-12 padding-sm">
-            <img src="public/img/historia1.jpg" class="img block" alt="Como se conheceram">
-          </div>
-          <div class="grid-md-7 grid-xs-12">
-            <h3 class="text-xl text-primary margin-y-xs">Como se conheceram</h3>
-            <span class="text-xl text-secondary title bold">Início 2007</span>
-            <p class="text-sm text-default">Se conheceram na escola, no 2* ano do colegial, até então se viam pelos corredores, mas nunca tinham conversado. Ele de boné sempre combinando com a cor do sapato, no cantinho da escola com os amigos e ela uma menina descolada que conversava com todo mundo e vivia cercada de pessoas.</p>
-            <p class="text-sm text-default">Ela pensava que ele nunca iria perceber que ela o olhava de uma forma diferente e ele à olhava mas tinha medo dela não se interessar por ele. Na inocência dos seus quase 16 anos trocavam olhares na entrada e saída da escola, iam em eventos em comum só porque um descobria "sem querer" que o outro ia. Até que um evento da escola, para uma peça teatral, alto da barca do inferno, em junho de 2007, na cidade de jaboticabal, fez com que ela tomasse a iniciativa de conversar com ele ainda dentro do ônibus. Quando chegaram no teatro os dois "ocasionalmente" sentaram um do lado do outro e ali teve um empurrãozinho do destino rs.</p>
-            <p class="text-sm text-default">Conversaram tanto que se alguém perguntasse hoje sobre o que a peça contava ninguém saberia. Na volta da viagem ela fez de tudo e conseguiu um banco ao lado dele no ônibus e foi então que ele tomou a iniciativa e à beijou!! Até que enfim!!!!!!!!!!!!! E a partir daí começaram a se ver todos os dias antes de entrarem na escola e nos intervalos.</p>
-          </div>
-          <div class="arrow hidden-xs hidden-sm"></div>
-        </div>
-        <div class="grid-row bd-sm bd-light bd-solid bg-white relative margin-bottom-xl">
-          <div class="grid-md-5 grid-xs-12 padding-sm">
-            <img src="public/img/historia2.jpg" class="img block" alt="O pedido de namoro">
-          </div>
-          <div class="grid-md-7 grid-xs-12">
-            <h3 class="text-xl text-primary margin-y-xs">O pedido de namoro</h3>
-            <span class="text-xl text-secondary title bold">01 de agosto de 2007</span>
-            <p class="text-sm text-default">Não demorou muito para saberem que estavam apaixonados. Então, ele comprou as alianças de compromisso e antes de entrarem na escola, em uma pracinha da cidade, fez o pedido para começarem a namorar e ela muito feliz, claro que aceitou!</p>
-          </div>
-          <div class="arrow hidden-xs hidden-sm"></div>
-        </div>
-        <div class="grid-row bd-sm bd-light bd-solid bg-white relative margin-bottom-xl">
-          <div class="grid-md-5 grid-xs-12 padding-sm">
-            <img src="public/img/historia3.jpg" class="img block" alt="O pedido de casamento">
-          </div>
-          <div class="grid-md-7 grid-xs-12">
-            <h3 class="text-xl text-primary margin-y-xs">O pedido de casamento</h3>
-            <span class="text-xl text-secondary title bold">20 de setembro de 2015</span>
-            <p class="text-sm text-default">Ficava no ar a pergunta, qual seria o próximo passo depois de tanto tempo? Ele todo sem jeito, fez tudo certinho, pediu a benção de seus pais e dos pais dela e comprou as alianças. Começou a planejar o dia. Esperou uma data que a família estivesse toda reunida para que ela não desconfiasse de nada. Essa data foi o batizado da Afilhada do casal, Heloisa. Já na igreja na hora do batizado ele estava apreensivo e ela não desconfiava de nada. Na hora da festa do batizado ela só não entendia o porque ele não queria que ela trocasse de roupa antes dos convidados chegarem. Só descobriu quando no meio da festa ele chamou à atenção de todos, fez um discurso, ajoelhou e pediu a mão dela em casamento. E ela muito surpresa, tremendo de emoção, disse SIM!!</p>
-          </div>
-          <div class="arrow hidden-xs hidden-sm"></div>
-        </div>
-        <div class="grid-row bd-sm bd-light bd-solid bg-white relative margin-bottom-xl">
-          <div class="grid-md-5 grid-xs-12 padding-sm">
-            <img src="public/img/historia4.jpg" class="img block" alt="O casamento">
-          </div>
-          <div class="grid-md-7 grid-xs-12">
-            <h3 class="text-xl text-primary margin-y-xs">O casamento</h3>
-            <span class="text-xl text-secondary title bold">28 de outubro de 2017</span>
-            <p class="text-sm text-default">Está quase na hora, nosso casal feliz está prestes a dar mais um passo nessa história de amor e felicidade, com a certeza de que Deus já preparou e iluminou todo o caminho, para que eles possam ser felizes para sempre.</p>
-          </div>
-          <div class="arrow hidden-xs hidden-sm"></div>
-        </div>
-      </div>
-      <div class="grid-md-2 grid-md-offset-1 hidden-sm hidden-xs diagram">
-        <span class="bird"></span>
-      </div>
-    </div>
-  </div>
-  <div id="galeria" class="grid-container-fluid gallery">
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <h2 class="text-xl text-primary title love title-xl margin-y-xs align-center">Nossos registros<i>♥</i></h2>
-      </div>
-    </div>
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <ul id="gallery" class="list list-horizontal align-center margin-bottom-xl">
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/ano-novo-2013.jpg" title="Ano novo 2013" class="block transition-fast"><img src="public/img/galeria/ano-novo-2013_thumb.jpg" alt="Ano novo 2013" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/ano-novo-2017.JPG" title="Ano novo 2017" class="block transition-fast"><img src="public/img/galeria/ano-novo-2017_thumb.jpg" alt="Ano novo 2017" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/baile-de-mascara.jpg" title="Baile de máscaras" class="block transition-fast"><img src="public/img/galeria/baile-de-mascara_thumb.jpg" alt="Baile de máscaras" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/bar-de-gelo.jpg" title="Bar de gelo" class="block transition-fast"><img src="public/img/galeria/bar-de-gelo_thumb.jpg" alt="Bar de gelo" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/ensaio-2016.jpg" title="Ensaio 2016" class="block transition-fast"><img src="public/img/galeria/ensaio-2016_thumb.jpg" alt="Ensaio 2016" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/formatura-marcela.jpg" title="Formatura Marcela" class="block transition-fast"><img src="public/img/galeria/formatura-marcela_thumb.jpg" alt="Formatura Marcela" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/formatura-matheus.jpg" title="Formatura Matheus" class="block transition-fast"><img src="public/img/galeria/formatura-matheus_thumb.jpg" alt="Formatura Matheus" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/bar-de-gelo-2.jpg" title="Bar de gelo" class="block transition-fast"><img src="public/img/galeria/bar-de-gelo-2_thumb.jpg" alt="Bar de gelo" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/fazenda.jpg" title="Fazenda" class="block transition-fast"><img src="public/img/galeria/fazenda_thumb.jpg" alt="Fazenda" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/ensaio-2016-2.jpg" title="Ensaio 2016" class="block transition-fast"><img src="public/img/galeria/ensaio-2016-2_thumb.jpg" alt="Ensaio 2016" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/formatura-matheus-2.jpg" title="Formatura Matheus" class="block transition-fast"><img src="public/img/galeria/formatura-matheus-2_thumb.jpg" alt="Formatura Matheus" class="img bd-radius-circle"></a>
-          </li>
-          <li class="list-item margin-md">
-            <a href="public/img/galeria/ensaio-2016-3.jpg" title="Ensaio 2016" class="block transition-fast"><img src="public/img/galeria/ensaio-2016-3_thumb.jpg" alt="Ensaio 2016" class="img bd-radius-circle"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div id="eventos" class="grid-container-fluid events bg-light padding-bottom-xl">
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <h2 class="text-xl text-primary title love title-xl margin-y-sm align-center">Onde acontecerá<i>♥</i></h2>
-      </div>
-    </div>
-    <div class="grid-row separator">
-      <div class="grid-md-6 grid-xs-12">
-        <div class="grid-row margin-bottom-sm">
-          <div class="grid-lg-6 grid-xs-12 img">
-            <img src="public/img/evento-igreja.jpg" alt="Igreja São Pedro e São Martinho" class="img">
-          </div>
-          <div class="grid-lg-6 grid-xs-12 info">
-            <h3 class="text-lg text-primary margin-y-xs">Igreja São Pedro e São Martinho</h3>
-            <p class="text-xl text-secondary title bold margin-y-xs">Dia 28/10 às 20:30</p>
-            <p class="text-sm text-default margin-y-xs">Rua Breno Vieira de Aquino Leite</p>
-            <p class="text-sm text-default margin-y-xs">Número 121</p>
-            <p class="text-sm text-default margin-y-xs">Guatapará</p>
-          </div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-lg-11 grid-xs-12">
-            <div id="map1" class="map"></div>
-          </div>
-        </div>
-        <span class="separator2"></span>
-      </div>
-      <div class="grid-md-6 grid-xs-12">
-        <div class="grid-row margin-bottom-sm">
-          <div class="grid-lg-6 grid-xs-12 img visible-xs visible-sm visible-md">
-            <img src="public/img/evento-salao.jpg" alt="Salão Benvenuto" class="img">
-          </div>
-          <div class="grid-lg-6 grid-xs-12 align-right info">
-            <h3 class="text-lg text-primary margin-y-xs">Benvenuto Espaço de Eventos</h3>
-            <p class="text-xl text-secondary title bold margin-y-xs">Dia 28/10 às 22:00</p>
-            <p class="text-sm text-default margin-y-xs">Rua Presidente Vargas</p>
-            <p class="text-sm text-default margin-y-xs">Número 2141</p>
-            <p class="text-sm text-default margin-y-xs">Pradópolis</p>
-          </div>
-          <div class="grid-lg-6 grid-xs-12 align-right img visible-lg visible-xl">
-            <img src="public/img/evento-salao.jpg" alt="Salão Benvenuto" class="img">
-          </div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-lg-11 grid-lg-offset-1 grid-xs-12">
-            <div id="map2" class="map"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="pessoas" class="grid-container-fluid people padding-bottom-xl">
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <h2 class="text-xl text-primary title love title-xl margin-y-sm align-center">Pessoas importantes<i>♥</i></h2>
-      </div>
-    </div>
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <div class="owl-carousel">
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">PAI DA NOIVA</span>
-            <img src="public/img/pessoas/pais-marco.jpg" alt="Pai da Noiva - Marco" title="Pai da Noiva - Marco" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">Marco</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">MÃE DA NOIVA</span>
-            <img src="public/img/pessoas/pais-ruth.jpg" alt="Mãe da Noiva - Ruth" title="Mãe da Noiva - Ruth" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">Ruth</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">PAI DO NOIVO</span>
-            <img src="public/img/pessoas/pais-hiro.jpg" alt="Pai da Noiva - Hiro" title="Pai do Noivo - Hiro" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">Hiro</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">MÃE DO NOIVO</span>
-            <img src="public/img/pessoas/pais-marta.jpg" alt="Mãe do Noivo - Marta" title="Mãe do Noivo - Marta" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">Marta</p>
-          </div>
-          <!-- <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">PADRINHO</span>
-            <img src="public/img/pessoas/padrinho-marco-antonio.jpg" alt="Padrinho Marco Antônio" title="Padrinho Marco Antônio" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">Marco Antônio</p>
-          </div> -->
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">PADRINHO</span>
-            <img src="public/img/avatar.jpg" alt="People 4" title="People 4" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">?????</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">MADRINHA</span>
-            <img src="public/img/avatar.jpg" alt="People 3" title="People 3" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">?????</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">PADRINHO</span>
-            <img src="public/img/avatar.jpg" alt="People 4" title="People 4" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">?????</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">MADRINHA</span>
-            <img src="public/img/avatar.jpg" alt="People 4" title="People 4" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">?????</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">PADRINHO</span>
-            <img src="public/img/avatar.jpg" alt="People 5" title="People 5" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">?????</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">MADRINHA</span>
-            <img src="public/img/avatar.jpg" alt="People 5" title="People 5" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">?????</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">PADRINHO</span>
-            <img src="public/img/avatar.jpg" alt="People 6" title="People 6" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">?????</p>
-          </div>
-          <div>
-            <span class="absolute position-top position-right margin-xs padding-xs bg-secondary bd-radius-md text-xxs text-white">MADRINHA</span>
-            <img src="public/img/avatar.jpg" alt="People 6" title="People 6" class="img bd-radius-md">
-            <p class="name-people absolute position-bottom position-left position-right text-sm text-default align-center ellipsis bg-lightgray clear-margin padding-xs">?????</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="presentes" class="grid-container gifts padding-bottom-xl">
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <h2 class="text-xl text-primary title love title-xl margin-y-sm align-center">Quer nos presentear?<i>♥</i></h2>
-      </div>
-    </div>
-    <div class="grid-row">
-      <div class="grid-xs-12 align-center">
-        <p class="text-lg text-default">Sua presença é nosso maior presente!</p>
-        <img src="public/img/gift.png" alt="Presentear">
-        <p class="text-sm text-default">Mas caso queira contribuir para a realização desse nosso sonho</p>
-        <p class="text-sm text-default">Veja nossa lista de presentes está no site <span class="text-md bold">XXXXX XXXXX</span></p>
-        <a href="https://listadepresentes.herokuapp.com/matheus-e-marcela" target="_blank" class="btn-lg btn-primary clear-decoration clear-width inline-block btn-present">Presentear</a>
-      </div>
-    </div>
-    <form id="contact" method="post" class="form">
-      <div class="grid-row margin-bottom-lg align-center">
+  <div id="historia" class="grid-container-fluid history padding-top-xl padding-bottom-xl bg-lightgray bd-bottom-xl bd-bottom-solid bd-light">
+    <div class="grid-container">
+      <div class="grid-row align-center">
         <div class="grid-xs-12">
-          <img src="public/img/gift-separator.png" alt="Nos envie uma mensagem" class="img separator">
-          <p class="text-lg text-default">Nos envie uma mensagem</p>
+          <h2 class="text-primary title margin-top-sm margin-bottom-lg bd-bottom-sm bd-bottom-solid bd-white inline-block">Nossa História</h2>
         </div>
       </div>
-      <div class="grid-row margin-bottom-lg">
-        <div class="grid-xs-12">
-          <label class="text-sm text-default">Nome:</label>
-          <input id="name" name="name" class="field text-field text-field-lg" type="text" required>
+      <div class="grid-row margin-bottom-xl">
+        <div id="history-photo1" class="grid-xl-4 grid-xl-offset-4 grid-sm-6 grid-xs-12 padding-x-xl">
+          <img data-src="public/img/historia1.jpg" class="img block bd-radius-circle margin-bottom-xl padding-bottom-xl" alt="Como se conheceram">
+        </div>
+        <div id="history-text1" class="grid-xl-4 grid-sm-6 grid-xs-12 clear-padding">
+          <h3 class="text-lg text-default weight-medium margin-top-xl margin-bottom-xs">COMO SE CONHECERAM</h3>
+          <span class="text-md text-primary weight-medium">Início 2007</span>
+          <p class="text-sm text-default">Se conheceram na escola, no 2* ano do colegial, até então se viam pelos corredores, mas nunca tinham conversado. Ele de boné sempre combinando com a cor do sapato, no cantinho da escola com os amigos e ela uma menina descolada que conversava com todo mundo e vivia cercada de pessoas.</p>
+          <p class="text-sm text-default">Na inocência dos seus quase 16 anos trocavam olhares na entrada e saída da escola, iam em eventos em comum só porque um descobria "sem querer" que o outro ia, mas ninguém queria arriscar a primeira conversa por medo de estar confundindo as coisas. Até que um evento da escola, para uma peça teatral, alto da barca do inferno, em junho de 2007, na cidade de Jaboticabal, fez com que ela tomasse a iniciativa de conversar com ele ainda dentro do ônibus. Quando chegaram no teatro os dois "ocasionalmente" sentaram um do lado do outro e ali teve um empurrãozinho do destino.</p>
+          <p class="text-sm text-default">Conversaram tanto que se alguém perguntasse hoje sobre o que a peça contava ninguém saberia, mas foi o início de tudo, a tão esperada conversa e a paquera declarada. A partir daí começaram a se ver todos os dias antes de entrarem na escola e nos intervalos.</p>
         </div>
       </div>
-      <div class="grid-row margin-bottom-lg">
-        <div class="grid-xs-12">
-          <label class="text-sm text-default">Mensagem:</label>
-          <textarea id="message" name="message" rows="3" class="field text-field text-field-lg textarea" required></textarea>
+      <div class="grid-row margin-bottom-xl">
+        <div id="history-text2" class="grid-xl-4 grid-sm-6 grid-xs-12 clear-padding">
+          <h3 class="text-lg text-default weight-medium margin-top-xl margin-bottom-xs align-right">O PEDIDO DE NAMORO</h3>
+          <span class="text-md text-primary weight-medium block align-right">01 de agosto de 2007</span>
+          <p class="text-md text-default align-right">Não demorou muito para saberem que estavam apaixonados. Então, ele comprou as alianças de compromisso e antes de entrarem na escola, em uma pracinha da cidade, fez o pedido para começarem a namorar e ela muito feliz, claro que aceitou!</p>
+        </div>
+        <div id="history-photo2" class="grid-xl-4 grid-sm-6 grid-xs-12 padding-x-xl">
+          <img data-src="public/img/historia2.jpg" class="img block bd-radius-circle margin-bottom-xl padding-bottom-xl" alt="O pedido de namoro">
         </div>
       </div>
-      <div class="grid-row margin-bottom-lg">
-        <div class="grid-md-2 grid-md-offset-10 grid-sm-3 grid-sm-offset-9 grid-xs-12">
-          <button type="submit" class="btn-lg btn-secondary">Enviar</button>
+      <div class="grid-row margin-bottom-xl">
+        <div id="history-photo3" class="grid-xl-4 grid-xl-offset-4 grid-sm-6 grid-xs-12 padding-x-xl">
+          <img data-src="public/img/historia3.jpg" class="img block bd-radius-circle margin-bottom-xl padding-bottom-xl" alt="O pedido de casamento">
+        </div>
+        <div id="history-text3" class="grid-xl-4 grid-sm-6 grid-xs-12 clear-padding">
+          <h3 class="text-lg text-default weight-medium margin-top-xl margin-bottom-xs">O PEDIDO DE CASAMENTO</h3>
+          <span class="text-md text-primary weight-medium">20 de setembro de 2015</span>
+          <p class="text-md text-default">Ficava no ar a pergunta, qual seria o próximo passo depois de tanto tempo? Ele todo sem jeito, fez tudo certinho, pediu a benção de seus pais e dos pais dela e comprou as alianças. Começou a planejar o dia. Esperou uma data que a família estivesse toda reunida para que ela não desconfiasse de nada. Essa data foi o batizado da Afilhada do casal, Heloisa. Já na igreja na hora do batizado ele estava apreensivo e ela não desconfiava de nada. Na hora da festa do batizado ela só não entendia o porque ele não queria que ela trocasse de roupa antes dos convidados chegarem. Só descobriu quando no meio da festa ele chamou à atenção de todos, fez um discurso, ajoelhou e pediu a mão dela em casamento. E ela muito surpresa, tremendo de emoção, disse SIM!!</p>
         </div>
       </div>
-    </form>
-  </div>
-  <div id="fornecedores" class="grid-container-fluid providers padding-bottom-xl">
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <h2 class="text-xl text-primary title love title-xl margin-y-sm align-center">Fornecedores<i>♥</i></h2>
+      <div class="grid-row margin-bottom-xl">
+        <div id="history-text4" class="grid-xl-4 grid-sm-6 grid-xs-12 clear-padding">
+          <h3 class="text-lg text-default weight-medium margin-top-xl margin-bottom-xs align-right">O CASAMENTO</h3>
+          <span class="text-md text-primary weight-medium block align-right">28 de outubro de 2017</span>
+          <p class="text-md text-default align-right">Está quase na hora, nosso casal feliz está prestes a dar mais um passo nessa história de amor e felicidade, com a certeza de que Deus já preparou e iluminou todo o caminho, para que eles possam ser felizes para sempre.</p>
+        </div>
+        <div id="history-photo4" class="grid-xl-4 grid-sm-6 grid-xs-12 padding-x-xl">
+          <img data-src="public/img/historia4.jpg" class="img block bd-radius-circle margin-bottom-xl padding-bottom-xl" alt="O casamento">
+        </div>
       </div>
     </div>
-    <div class="grid-row">
+  </div>
+  <div id="eventos" class="grid-container-fluid events padding-bottom-xl bd-bottom-xl bd-bottom-solid bd-default">
+    <div class="grid-row align-center">
+      <div class="grid-xs-12">
+        <h2 class="text-primary title margin-top-xl margin-bottom-sm bd-bottom-sm bd-bottom-solid bd-lightgray inline-block">Onde Acontecerá</h2>
+      </div>
+    </div>
+    <div class="grid-row padding-bottom-xl">
+      <div class="grid-lg-3 grid-md-6 grid-xs-12 align-center bg-lightgray photo1">
+        <div class="item inline-block">
+          <img src="public/img/evento-igreja.jpg" alt="Igreja São Pedro e São Martinho" class="img padding-top-md">
+          <h3 class="text-md text-default weight-medium">Igreja São Pedro e São Martinho</h3>
+          <p class="text-sm text-default margin-y-xs">28 de outubro de 2017</p>
+          <p class="text-sm text-default margin-top-xs margin-bottom-lg">às 21:00</p>
+          <p class="text-sm text-default margin-y-xs">Rua Breno Vieira de Aquino Leite</p>
+          <p class="text-sm text-default margin-top-xs margin-bottom-xl">Número 121 - Guatapará</p>
+        </div>
+      </div>
+      <div class="grid-lg-3 grid-md-6 grid-xs-12 map1">
+        <div id="map1" class="map item"></div>
+      </div>
+      <div class="grid-lg-3 grid-md-6 grid-xs-12 map2">
+        <div id="map2" class="map item"></div>
+      </div>
+      <div class="grid-lg-3 grid-md-6 grid-xs-12 align-center bg-lightgray photo2">
+        <div class="item inline-block">
+          <img src="public/img/evento-salao.jpg" alt="Salão Benvenuto" class="img padding-top-md">
+          <h3 class="text-md text-default weight-medium">Benvenuto Espaço de Eventos</h3>
+          <p class="text-sm text-default margin-y-xs">28 de outubro de 2017</p>
+          <p class="text-sm text-default margin-top-xs margin-bottom-lg">às 22:00</p>
+          <p class="text-sm text-default margin-y-xs">Rua Presidente Vargas</p>
+          <p class="text-sm text-default margin-top-xs margin-bottom-xl">Número 2141 - Pradópolis</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="pessoas" class="grid-container-fluid people padding-top-xl padding-bottom-xl bg-lightgray bd-bottom-xl bd-bottom-solid bd-light">
+    <div class="grid-container padding-bottom-xl">
+      <div class="grid-row align-center">
+        <div class="grid-xs-12">
+          <h2 class="text-primary title margin-top-sm margin-bottom-lg padding-bottom-xs bd-bottom-sm bd-bottom-solid bd-white inline-block">Pessoas Importantes</h2>
+        </div>
+      </div>
+      <div class="grid-row padding-bottom-xl">
+        <div class="grid-md-8 grid-md-offset-2 grid-xs-10 grid-xs-offset-1 padding-bottom-xl">
+          <div class="owl-carousel padding-bottom-xl">
+            <div>
+              <img data-src="public/img/pessoas/pais-marco.jpg" alt="Pai da Noiva - Marco" title="Pai da Noiva - Marco" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Marco</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PAI DA NOIVA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/pais-ruth.jpg" alt="Mãe da Noiva - Ruth" title="Mãe da Noiva - Ruth" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Ruth</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MÃE DA NOIVA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/pais-hiro.jpg" alt="Pai da Noiva - Hiro" title="Pai do Noivo - Hiro" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Hiro</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PAI DO NOIVO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/pais-marta.jpg" alt="Mãe do Noivo - Marta" title="Mãe do Noivo - Marta" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Marta</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MÃE DO NOIVO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/daminha-heloisa.jpg" alt="Daminha Heloísa" title="Daminha Heloísa" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Heloísa</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">Daminha</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/daminha-rebeca.jpg" alt="Daminha Rebeca" title="Daminha Rebeca" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Rebeca</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">Daminha</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/daminha-yuki.jpg" alt="Daminha Yuki" title="Daminha Yuki" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Yuki</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">Daminha</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-diogo.jpg" alt="Padrinho Diogo" title="Padrinho Diogo" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Diogo</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-isabela.jpg" alt="Madrinha Isabela" title="Madrinha Isabela" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Isabela</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-felipe.jpg" alt="Padrinho Felipe" title="Padrinho Felipe" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Felipe</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-kelly.jpg" alt="Madrinha Kelly" title="Madrinha Kelly" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Kelly</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-gnomo.jpg" alt="Padrinho Gnomo" title="Padrinho Gnomo" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Gnomo</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-diane.jpg" alt="Madrinha Diane" title="Madrinha Diane" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Diane</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/avatar.jpg" alt="Padrinho " title="Padrinho " class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin"></p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-aya.jpg" alt="Madrinha Aya" title="Madrinha Aya" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Aya</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-marcoA.jpg" alt="Padrinho Marco Antônio" title="Padrinho Marco Antônio" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Marco Antônio</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-renata.jpg" alt="Madrinha Renata" title="Madrinha Renata" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Renata</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-marcoR.jpg" alt="Padrinho Marco" title="Padrinho Marco" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Marco</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-roseR.jpg" alt="Madrinha Rose" title="Madrinha Rose" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Rose</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-norio.jpg" alt="Padrinho Norio" title="Padrinho Norio" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Norio</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-leticia.jpg" alt="Madrinha Leticia" title="Madrinha Leticia" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Leticia</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-otavio.jpg" alt="Padrinho Otavio" title="Padrinho Otavio" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Otavio</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-anajulia.jpg" alt="Madrinha Ana Julia" title="Madrinha Ana Julia" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Ana Julia</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-paulinho.jpg" alt="Padrinho Paulinho" title="Padrinho Paulinho" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Paulinho</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-maura.jpg" alt="Madrinha Maura" title="Madrinha Maura" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Maura</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/avatar.jpg" alt="Padrinho " title="Padrinho " class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin"></p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-simone.jpg" alt="Madrinha Simone" title="Madrinha Simone" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Simone</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-robertoA.jpg" alt="Padrinho Roberto Atílio" title="Padrinho Roberto Atílio" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Roberto Atílio</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-roseD.jpg" alt="Madrinha Rose Denipotte" title="Madrinha Rose Denipotte" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Rose Denipotte</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-robertoH.jpg" alt="Padrinho Roberto Honório" title="Padrinho Roberto Honório" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Roberto Honório</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-marisa.jpg" alt="Madrinha Marisa" title="Madrinha Marisa" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Marisa</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-valter.jpg" alt="Padrinho Valter" title="Padrinho Valter" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Valter</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-marianne.jpg" alt="Madrinha Marianne" title="Madrinha Marianne" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Marianne</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/padrinho-vicente.jpg" alt="Padrinho Vicente" title="Padrinho Vicente" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Vicente</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">PADRINHO</p>
+            </div>
+            <div>
+              <img data-src="public/img/pessoas/madrinha-jo.jpg" alt="Madrinha Jô" title="Madrinha Jô" class="img bd-radius-circle margin-bottom-sm">
+              <p class="text-lg text-default weight-medium align-center clear-margin">Jô</p>
+              <p class="text-xs text-primary weight-medium align-center clear-margin">MADRINHA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="galeria" class="grid-container-fluid gallery bd-bottom-xl bd-bottom-solid bd-light clear-padding">
+    <div id="gallery" class="owl-carousel">
+      <div>
+        <a href="public/img/galeria/ano-novo-2013.jpg" title="Ano novo 2013" class="block">
+          <img data-src="public/img/galeria/ano-novo-2013_thumb.jpg" alt="Ano novo 2013" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/ano-novo-2017.JPG" title="Ano novo 2017" class="block">
+          <img data-src="public/img/galeria/ano-novo-2017_thumb.jpg" alt="Ano novo 2017" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/baile-de-mascara.jpg" title="Baile de máscaras" class="block">
+          <img data-src="public/img/galeria/baile-de-mascara_thumb.jpg" alt="Baile de máscaras" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/bar-de-gelo.jpg" title="Bar de gelo" class="block">
+          <img data-src="public/img/galeria/bar-de-gelo_thumb.jpg" alt="Bar de gelo" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/ensaio-2016.jpg" title="Ensaio 2016" class="block">
+          <img data-src="public/img/galeria/ensaio-2016_thumb.jpg" alt="Ensaio 2016" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/formatura-marcela.jpg" title="Formatura Marcela" class="block">
+          <img data-src="public/img/galeria/formatura-marcela_thumb.jpg" alt="Formatura Marcela" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/formatura-matheus.jpg" title="Formatura Matheus" class="block">
+          <img data-src="public/img/galeria/formatura-matheus_thumb.jpg" alt="Formatura Matheus" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/bar-de-gelo-2.jpg" title="Bar de gelo" class="block">
+          <img data-src="public/img/galeria/bar-de-gelo-2_thumb.jpg" alt="Bar de gelo" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/fazenda.jpg" title="Fazenda" class="block">
+          <img data-src="public/img/galeria/fazenda_thumb.jpg" alt="Fazenda" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/ensaio-2016-2.jpg" title="Ensaio 2016" class="block">
+          <img data-src="public/img/galeria/ensaio-2016-2_thumb.jpg" alt="Ensaio 2016" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/formatura-matheus-2.jpg" title="Formatura Matheus" class="block">
+          <img data-src="public/img/galeria/formatura-matheus-2_thumb.jpg" alt="Formatura Matheus" class="img">
+        </a>
+      </div>
+      <div>
+        <a href="public/img/galeria/ensaio-2016-3.jpg" title="Ensaio 2016" class="block">
+          <img data-src="public/img/galeria/ensaio-2016-3_thumb.jpg" alt="Ensaio 2016" class="img">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="presentes" class="grid-container-fluid gifts bg-primary bd-bottom-xl bd-bottom-solid bd-light padding-bottom-xl">
+    <div class="grid-container">
+      <div class="grid-row align-center">
+        <div class="grid-xs-12">
+          <h2 class="text-white title margin-top-lg margin-bottom-sm padding-bottom-xs bd-bottom-sm bd-bottom-solid bd-lightgray inline-block">Quer nos presentear?</h2>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-xs-12 align-center">
+          <p class="text-md text-white margin-y-xs">Sua presença é nosso maior presente!</p>
+          <p class="text-md text-white margin-y-xs">Mas caso queira contribuir para a realização desse nosso sonho,</p>
+          <p class="text-md text-white margin-y-xs">Veja nossa lista de presentes está no site</p>
+        </div>
+        <div class="grid-sm-6 grid-sm-offset-3 grid-xs-12 align-center box-btn-present">
+          <a id="open-popup" href="#my-popup" href="https://listadepresentes.herokuapp.com/matheus-e-marcela" target="_blank" class="text-lg text-primary clear-decoration btn-present margin-y-lg block" title="Clique aqui para acessar a lista de presentes">
+            <span class="bg-lightgray padding-y-xs padding-x-sm block relative">
+              <small class="block">Clique aqui:</small>
+              www.presentesparaosnoivos.com.br
+            </span>
+          </a>
+        </div>
+        <div id="my-popup" class="mfp-hide white-popup-block">
+          <div class="align-center margin-bottom-lg">
+            <h2 class="text-primary text-lg clear-margin bd-bottom-sm bd-bottom-solid bd-lightgray inline-block">Presentes para os Noivos</h2>
+          </div>
+          <ul class="list margin-bottom-lg">
+            <li class="list-item text-sm text-default margin-bottom-xs"><span class="text-lg text-primary">♥</span> Nosso site listará os produtos que escolhemos, mostrando o nome, a foto, e um link para buscar o melhor preço na internet.</li>
+            <li class="list-item text-sm text-default margin-bottom-xs"><span class="text-lg text-primary">♥</span> Na hora da compra observar no canto superior do produto de interesse, se o item já foi comprado, se mesmo assim optar pela compra, verificar se a loja oferece troca.</li>
+            <li class="list-item text-sm text-default margin-bottom-xs"><span class="text-lg text-primary">♥</span> Você pode optar por comprar em uma loja física ou em loja virtual, mas não esqueça de ir em nossa lista e marcar que comprou o produto.</li>
+            <li class="list-item text-sm text-default margin-bottom-xs"><span class="text-lg text-primary">♥</span> Se você optar por contribuir com dinheiro, oferecemos a opção da "vaquinha". Você selecionará um dos presentes fictícios, informará seu nome e e-mail e realizará o pagamento pelo PagSeguro, podendo optar por pagamento com boleto ou cartão de crédito.</li>
+            <li class="list-item text-sm text-default bold italic margin-bottom-xs"><span class="text-lg text-primary">♥</span> Todos os produtos necessitam de voltagem 110v.</li>
+          </ul>
+          <div class="align-center">
+            <a href="https://listadepresentes.herokuapp.com/casamentomatheusemarcela" target="_blank" class="btn-present text-lg text-primary clear-decoration block" title="Clique aqui para acessar a lista de presentes">
+              <span class="bg-lightgray padding-y-xs padding-x-sm block relative">
+                <small class="block">Clique aqui:</small>
+                www.presentesparaosnoivos.com.br
+              </span>
+            </a>
+          </div>
+          <button title="Fechar" type="button" class="mfp-close">×</button>
+          </di v>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="mensagem" class="grid-container-fluid message padding-bottom-xl">
+    <div class="grid-container">
+      <form id="contact" method="post" class="form">
+        <div class="grid-row align-center">
+          <div class="grid-xs-12">
+            <h3 class="text-lg text-white title margin-bottom-xs">Nos envie uma mensagem.</h3>
+          </div>
+        </div>
+        <div class="grid-row margin-bottom-lg">
+          <div class="grid-md-6 grid-md-offset-3 grid-sm-8 grid-sm-offset-2 grid-xs-12">
+            <input id="name" name="name" placeholder="Nome" class="field text-field text-field-lg" type="text" required>
+          </div>
+        </div>
+        <div class="grid-row margin-bottom-lg">
+          <div class="grid-md-6 grid-md-offset-3 grid-sm-8 grid-sm-offset-2 grid-xs-12">
+            <textarea id="message" name="message" placeholder="Mensagem" rows="3" class="field text-field text-field-lg textarea" required></textarea>
+          </div>
+        </div>
+        <div class="grid-row margin-bottom-lg">
+          <div class="grid-md-4 grid-md-offset-4 grid-sm-6 grid-sm-offset-3 grid-xs-12">
+            <button type="submit" class="btn-lg btn-primary">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="fornecedores" class="grid-container-fluid providers padding-top-xl padding-bottom-xl">
+    <div class="grid-row padding-top-lg padding-bottom-lg">
       <div class="grid-xs-12">
         <div class="owl-carousel">
           <div>
             <a href="https://www.facebook.com/EushowEventos" target="_blank">
-              <img src="public/img/fornecedores/eu-show.jpg" alt="Eu Show" title="Eu Show" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/eu-show.jpg" alt="Eu Show" title="Eu Show" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/pg/CantinaTiaSonia" target="_blank">
-              <img src="public/img/fornecedores/cantina-tia-sonia.jpg" alt="Cantina Tia Sônia" title="Cantina Tia Sônia" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/cantina-tia-sonia.jpg" alt="Cantina Tia Sônia" title="Cantina Tia Sônia" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/tiagolacerdafotoevideo/" target="_blank">
-              <img src="public/img/fornecedores/tiago-lacerda.jpg" alt="Tiago Lacerda Foto e Vídeo" title="Tiago Lacerda Foto e Vídeo" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/tiago-lacerda.jpg" alt="Tiago Lacerda Foto e Vídeo" title="Tiago Lacerda Foto e Vídeo" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/Orvalhofestas/" target="_blank">
-              <img src="public/img/fornecedores/orvalho.jpg" alt="Orvalho Festas - Viviane Sousa" title="Orvalho Festas - Viviane Sousa" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/orvalho.jpg" alt="Orvalho Festas - Viviane Sousa" title="Orvalho Festas - Viviane Sousa" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/tatianelampa/" target="_blank">
-              <img src="public/img/fornecedores/tatiane-lampa.jpg" alt="Tatiane Lampa Assessoria Musical" title="Tatiane Lampa Assessoria Musical" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/tatiane-lampa.jpg" alt="Tatiane Lampa Assessoria Musical" title="Tatiane Lampa Assessoria Musical" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/athosfotovideo/" target="_blank">
-              <img src="public/img/fornecedores/athos-fotografia.jpg" alt="Áthos Foto & Vídeo" title="Áthos Foto & Vídeo" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/athos-fotografia.jpg" alt="Áthos Foto & Vídeo" title="Áthos Foto & Vídeo" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/Sandra-Sertori-Doces-Finos-Chocolates-1024843487560001/" target="_blank">
-              <img src="public/img/fornecedores/sandra-sertori.jpg" alt="Sandra Sertori Doces Finos" title="Sandra Sertori Doces Finos" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/sandra-sertori.jpg" alt="Sandra Sertori Doces Finos" title="Sandra Sertori Doces Finos" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/deliciasbyleticia/" target="_blank">
-              <img src="public/img/fornecedores/leticia-corral.jpg" alt="Delícias by Leticia Corral" title="Delícias by Leticia Corral" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/leticia-corral.jpg" alt="Delícias by Leticia Corral" title="Delícias by Leticia Corral" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/valtur.turismo" target="_blank">
-              <img src="public/img/fornecedores/valtur.jpg" alt="Valtur Turismo" title="Valtur Turismo" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/valtur.jpg" alt="Valtur Turismo" title="Valtur Turismo" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/espacofestarp" target="_blank">
-              <img src="public/img/fornecedores/espaco-festa.jpg" alt="Espaço Festa Locação de Trajes" title="Espaço Festa Locação de Trajes" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/espaco-festa.jpg" alt="Espaço Festa Locação de Trajes" title="Espaço Festa Locação de Trajes" class="img bd-radius-md">
             </a>
           </div>
           <div>
-            <a href="https://www.facebook.com/MimosdaSi/" target="_blank">
-              <img src="public/img/fornecedores/mimos-da-si.jpg" alt="Mimos da Si" title="Mimos da Si" class="img bd-radius-md">
+            <a href="https://www.facebook.com/blacktiealfaiataria/" target="_blank">
+              <img data-src="public/img/fornecedores/black-tie.jpg" alt="Black Tie Alfaiataria" title="Black Tie Alfaiataria" class="img bd-radius-md">
+            </a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/ateliemimosdasi" target="_blank">
+              <img data-src="public/img/fornecedores/mimos-da-si.jpg" alt="Mimos da Si" title="Mimos da Si" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/desejoesabor" target="_blank">
-              <img src="public/img/fornecedores/desejo-e-sabor.jpg" alt="Desejo & Sabor" title="Desejo & Sabor" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/desejo-e-sabor.jpg" alt="Desejo & Sabor" title="Desejo & Sabor" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/personalicecriacoes/" target="_blank">
-              <img src="public/img/fornecedores/personalice.jpg" alt="Personalice" title="Personalice" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/personalice.jpg" alt="Personalice" title="Personalice" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/SamiraSanchesBordados/" target="_blank">
-              <img src="public/img/fornecedores/samira-sanches.jpg" alt="Samira Sanches Bordados" title="Samira Sanches Bordados" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/samira-sanches.jpg" alt="Samira Sanches Bordados" title="Samira Sanches Bordados" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/artcasamentos/" target="_blank">
-              <img src="public/img/fornecedores/art-casamento.jpg" alt="Forminhas Artigos Artcasamentos" title="Forminhas Artigos Artcasamentos" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/art-casamento.jpg" alt="Forminhas Artigos Artcasamentos" title="Forminhas Artigos Artcasamentos" class="img bd-radius-md">
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/profile.php?id=100012345097113" target="_blank">
-              <img src="public/img/fornecedores/win-customize.jpg" alt="Win Customize" title="Win Customize" class="img bd-radius-md">
+              <img data-src="public/img/fornecedores/win-customize.jpg" alt="Win Customize" title="Win Customize" class="img bd-radius-md">
             </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- <div id="instagram" class="grid-container-fluid instagram padding-bottom-xl">
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <h2 class="text-xl text-primary title love title-xl margin-y-sm align-center">Instagram<i>♥</i></h2>
-      </div>
-    </div>
-    <div class="grid-row">
-      <div class="grid-xs-12">
-        <ul class="list"></ul>
-      </div>
-    </div>
-  </div> -->
-  <footer class="grid-container-fluid margin-top-xl padding-top-xl padding-bottom-lg bg-primary">
+  <footer class="grid-container-fluid padding-top-lg padding-bottom-sm bg-default">
     <div class="grid-xs-12">
-      <p class="text-xxs text-white align-center">Created with <span class="text-xl text-secondary align-middle">&hearts;</span> by <a href="http://matheuspiscioneri.com.br" class="text-white clear-decoration" target="_blank">Matheus Piscioneri</a></p>
-      <span id="back-to-top" class="transition-normal pointer hidden fixed position-right position-bottom margin-bottom-sm margin-right-lg back-to-top"><img src="public/img/back-top-top.png" alt="Voltar ao topo"></span>
+      <p class="text-xs text-white align-center">Created with <span class="text-xl text-primary align-middle">&hearts;</span> by <a href="http://matheuspiscioneri.com.br" class="text-white clear-decoration" target="_blank">Matheus Piscioneri</a></p>
+      <span id="back-to-top" class="transition-normal pointer hidden fixed position-right position-bottom margin-bottom-sm margin-right-lg back-to-top"><img data-src="public/img/back-top-top.png" alt="Voltar ao topo"></span>
     </div>
   </footer>
   <div id="load">
@@ -490,6 +605,11 @@
     <img class="loader1" src="public/img/loader1.png" alt="Carregando - Matheus e Marcela">
     <img class="loader2" src="public/img/loader2.png" alt="Carregando - Matheus e Marcela">
   </div>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-100874685-1', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 
 </html>

@@ -26,6 +26,8 @@ gulp.task('scripts', function() {
       'bower_components/jquery/dist/jquery.js',
       'bower_components/html5shiv/html5shiv.js',
       'bower_components/countdown/jquery.countdown.js',
+      'bower_components/unveil/jquery.unveil.min.js',
+      'bower_components/matchHeight/dist/jquery.matchHeight-min.js',
       'bower_components/backfix/index.js',
       'bower_components/magnific-popup/dist/jquery.magnific-popup.js',
       'bower_components/owl.carousel/dist/owl.carousel.js',
@@ -83,7 +85,12 @@ gulp.task('watcher', function() {
     }));
 });
 
+gulp.task('dev', function() { // start default tasks "gulp"
+  return runSequence(['scripts', 'styles']);
+});
+
 gulp.task('default', function() { // start default tasks "gulp"
   return runSequence('lint', 'clean', ['scripts', 'styles', 'images']);
 });
+
 gulp.task('watch', ['watcher']); // start watcher task "gulp watch"

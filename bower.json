@@ -16,6 +16,8 @@
     "html5shiv": "^3.7.3",
     "acsset": "*",
     "countdown": "git://github.com/epiksel/countdown.git#^1.0.1",
+    "unveil": "git://github.com/luis-almeida/unveil",
+    "matchHeight": "git://github.com/liabru/jquery-match-height",
     "backfix": "http://www.bajb.net/code/backbutton/backfix.js"
   }
 }

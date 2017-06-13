@@ -12,12 +12,14 @@ function initMap() {
 
   // Create maps
   var map1 = new google.maps.Map(document.getElementById('map1'), {
-    zoom: 16,
-    center: latLng1
+    zoom: 15,
+    center: latLng1,
+    styles: [{ "featureType": "landscape", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "transit", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "poi", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "water", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "road", "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] }, { "stylers": [{ "hue": "#00aaff" }, { "saturation": -100 }, { "gamma": 2.15 }, { "lightness": 12 }] }, { "featureType": "road", "elementType": "labels.text.fill", "stylers": [{ "visibility": "on" }, { "lightness": 24 }] }, { "featureType": "road", "elementType": "geometry", "stylers": [{ "lightness": 57 }] }]
   });
   var map2 = new google.maps.Map(document.getElementById('map2'), {
-    zoom: 16,
-    center: latLng2
+    zoom: 15,
+    center: latLng2,
+    styles: [{ "featureType": "landscape", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "transit", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "poi", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "water", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "road", "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] }, { "stylers": [{ "hue": "#00aaff" }, { "saturation": -100 }, { "gamma": 2.15 }, { "lightness": 12 }] }, { "featureType": "road", "elementType": "labels.text.fill", "stylers": [{ "visibility": "on" }, { "lightness": 24 }] }, { "featureType": "road", "elementType": "geometry", "stylers": [{ "lightness": 57 }] }]
   });
 
   // Add marker points
@@ -52,17 +54,23 @@ $(window).on('load', function() {
 
   // Counter
   $('#counter-box').countdown({
-    date: '10/28/2017 20:30:00',
+    date: '10/28/2017 21:00:00',
     offset: -4,
-    day: 'Dia',
-    days: 'Dias',
-    hour: 'Hora',
-    hours: 'Horas',
-    minute: 'Minuto',
-    minutes: 'Minutos',
-    second: 'Segundo',
-    seconds: 'Segundos'
+    day: 'dia',
+    days: 'dias',
+    hour: 'hora',
+    hours: 'horas',
+    minute: 'minuto',
+    minutes: 'minutos',
+    second: 'segundo',
+    seconds: 'segundos'
   });
+
+  // Equal height couple
+  if ($(window).width() > 767) {
+    $('.grooms').matchHeight();
+  }
+  $('.events .item').matchHeight();
 
   // Gallery modal
   $('#gallery').magnificPopup({
@@ -74,12 +82,42 @@ $(window).on('load', function() {
     }
   });
 
+  // Presents modal
+  $('#open-popup').magnificPopup({
+    type: 'inline',
+    preloader: false
+  });
+
   // Carousel people
   $('.people .owl-carousel').owlCarousel({
     loop: true,
     margin: 15,
     autoplay: true,
     autoplayHoverPause: true,
+    nav: true,
+    navText: ["&#8249;", "&#8250;"],
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      543: {
+        items: 2
+      },
+      767: {
+        items: 3
+      },
+      1200: {
+        items: 4
+      }
+    }
+  });
+
+  // Carousel gallery
+  $('.gallery .owl-carousel').owlCarousel({
+    center: true,
+    loop: true,
+    margin: 0,
     responsiveClass: true,
     responsive: {
       0: {
@@ -165,10 +203,22 @@ $(window).on('load', function() {
     }
   };
 
+  // Set height
+  $('.couple').height($('.couple').height());
+
+  // Lazy Load
+  $("img").unveil(200);
+
+  // Movie elements for responsive
+  if ($(window).width() <= 543) {
+    $("#history-photo1").detach().appendTo('#history-text1');
+    $("#history-photo3").detach().appendTo('#history-text3');
+    $(".map2").detach().appendTo('.photo2');
+  }
 });
 
 // Scroll animate
-$(document).on('click', 'a[href^="#"]', function(e) {
+$(document).on('click', '.anchor', function(e) {
   e.preventDefault();
   var id = $(this).attr('href');
   var targetOffset = $(id).offset().top;
@@ -178,7 +228,7 @@ $(document).on('click', 'a[href^="#"]', function(e) {
 });
 
 // Back to top
-$('#back-to-top').on('click', function(e) {
+$(document).on('click', '#back-to-top', function(e) {
   e.preventDefault();
   $('html,body').animate({
     scrollTop: 0
@@ -193,4 +243,15 @@ $(window).on('scroll', function() {
   } else {
     $('#back-to-top').addClass('hidden').removeClass('show');
   }
+});
+
+$(window).resize(function() {
+  // Equal height couple
+  if ($(window).width() > 767) {
+    $('.grooms').matchHeight();
+  }
+
+  // Set height
+  $('.couple').css('height', 'auto');
+  $('.couple').height($('.couple').height());
 });
