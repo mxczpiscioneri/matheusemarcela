@@ -48,6 +48,7 @@ $(window).on('load', function() {
 
   // Remove loader
   $("#load").fadeOut();
+  $("body").css("overflow-y", "auto");
 
   // Menu mobile
   $('#menu').slicknav();
